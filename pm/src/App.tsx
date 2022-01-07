@@ -5,10 +5,10 @@ import HomePage from './pages/hompage';
 
 function App() {
   return (
-		<section className="App">
+    <section >
+      
 			<Routes>
-				<Route path="/" element={<HomePage/>} />
-				
+				<Route  path="/" element={<HomePage />} />
 			</Routes>
 		</section>
 	);
