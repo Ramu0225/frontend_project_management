@@ -1,4 +1,3 @@
-import * as React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import SideMenuItems from "../components/sidemenu/sideMenuItems";
 import HeaderBar from "../components/navigators/headerBar";
@@ -7,6 +6,7 @@ const useStyles = makeStyles({
 	page: {
 		width: "100%",
 		minHeight: "100%",
+		backgroundColor: "snow",
 		margin: "0",
 		padding: "0",
 		display: "flex",
@@ -25,6 +25,7 @@ const useStyles = makeStyles({
 		minHeight: "100%",
 		margin: "0",
 		padding: "0",
+		backgroundColor: "#2aa4c6",
 		display: "flex",
 		flexDirection: "column",
 		justifyContent: "space-between",
