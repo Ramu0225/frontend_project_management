@@ -1,4 +1,3 @@
-import * as React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import SideMenuItems from "../components/sidemenu/sideMenuItems";
 import HeaderBar from "../components/navigators/headerBar";
